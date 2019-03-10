@@ -44,9 +44,10 @@ while !finished
 
   else
     puts "Bad luck #{name}, you lose!"
+    puts "The word was #{word}"
     sleep(3)
     finished = true
   end
   system 'clear'
-  
+
 end
